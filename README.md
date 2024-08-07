@@ -20,5 +20,5 @@ $ npm run start
 
 ## Stay in touch
 
-- Author - Hari
-- Website - [https://in.linkedin.com/in/hari-venkata-sateesh-sireddi-2631a5178](https://in.linkedin.com/in/hari-venkata-sateesh-sireddi-2631a5178/)
+- Author - [@Sateesh Raja](hari.sireddi7776@gmail.com)
+- LinkedIn - [@LinkedIn](https://www.linkedin.com/in/hari-venkata-sateesh-sireddi-2631a5178/)
