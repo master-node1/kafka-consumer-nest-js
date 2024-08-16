@@ -1,0 +1,13 @@
+jenkinsfile
+.env
+.editorconfig
+.git
+.github
+.cache
+*.md
+LICENSE
+script/
+test/
+data/
+node_modules/
+makefile
