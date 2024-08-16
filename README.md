@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Setting Up Multiple Kafka Consumer Servers in NestJS](https://docs.google.com/document/d/1dhEskIe60S3Nqd4KIgsTooIYy-SwuYjf7w_4o8GUn8A/edit#heading=h.z4lgq0b72omd).
 
 ## Installation
 
@@ -38,24 +38,7 @@ $ npm install
 # development
 $ npm run start
 
-# watch mode
-$ npm run start:dev
 
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## Support
@@ -64,9 +47,8 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [@Hari venkata sateesh raja](hari.sireddi7776@gmail.com)
+- LinkedIn - [@LinkedIn](https://www.linkedin.com/in/hari-venkata-sateesh-sireddi-2631a5178/)
 
 ## License
 
