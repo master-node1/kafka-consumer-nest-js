@@ -2,7 +2,9 @@ import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions } from '@nestjs/microservices';
 import { AppModule } from './module/app.module';
 import { KafkaServer1, KafkaServer2 } from './custom.kafka.server.stratage';
+import tracer from './trace';
 
+tracer.init();
 async function bootstrap() {
   // create http server
   const app = await NestFactory.create(AppModule);
