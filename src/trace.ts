@@ -17,12 +17,12 @@ class Tracer {
 
   // url is optional and can be omitted - default is http://localhost:4318/v1/traces
   private exporter = new OTLPTraceExporter({
-    url: 'https://localhost:9999/',
+    url: 'http://localhost:4318/v1/traces',
   });
 
   private provider = new NodeTracerProvider({
     resource: new Resource({
-      [SEMRESATTRS_SERVICE_NAME]: 'ocmp-auth-consumer-ms',
+      [SEMRESATTRS_SERVICE_NAME]: 'kafk-service',
     }),
   });
 
