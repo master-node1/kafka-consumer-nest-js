@@ -16,7 +16,7 @@ async function bootstrap() {
             },
             consumer: {
                 groupId: 'topic1-consumer-group',
-            }
+            },
         }),
     });
     app.connectMicroservice({
@@ -28,7 +28,7 @@ async function bootstrap() {
             },
             consumer: {
                 groupId: 'topic2-consumer-group',
-            }
+            },
         }),
     });
     app.startAllMicroservices();

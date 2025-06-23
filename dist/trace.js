@@ -15,7 +15,7 @@ class Tracer {
         });
         this.provider = new sdk_trace_node_1.NodeTracerProvider({
             resource: new resources_1.Resource({
-                [semantic_conventions_1.SEMRESATTRS_SERVICE_NAME]: 'kafk-service',
+                [semantic_conventions_1.ATTR_SERVICE_NAME]: 'kafk-service',
             }),
         });
     }
