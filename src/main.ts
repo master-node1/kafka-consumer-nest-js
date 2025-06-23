@@ -18,7 +18,7 @@ async function bootstrap() {
       },
       consumer: {
         groupId: 'topic1-consumer-group',
-      }
+      },
     }),
   });
 
@@ -32,7 +32,7 @@ async function bootstrap() {
       },
       consumer: {
         groupId: 'topic2-consumer-group',
-      }
+      },
     }),
   });
 

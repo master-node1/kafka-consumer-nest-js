@@ -1,8 +1,8 @@
 {
   "name": "nest-multiple-kafka-consumers",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "nest multiple kafka consumers running on strimze kafka using k8s exports metrics to promo ql and tempo for tracing",
+  "author": "Sateesh Raja Sireddi <hari.sireddi7776@gmail.com>",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -14,7 +14,10 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "postinstall": "husky",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "dependencies": {
     "@nestjs/axios": "^3.0.2",
@@ -58,6 +61,7 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^9.1.7",
     "jest": "^29.5.0",
     "prettier": "^3.0.0",
     "source-map-support": "^0.5.21",
@@ -84,5 +88,7 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/master-node1/MULTIPLE-KAFKA-CONSUMER-SERVERS-NEST-JS"
 }

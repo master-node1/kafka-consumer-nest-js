@@ -10,4 +10,5 @@ script/
 test/
 data/
 node_modules/
+dist/
 makefile
