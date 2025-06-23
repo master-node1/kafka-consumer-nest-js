@@ -10,7 +10,7 @@ import {
   NodeTracerProvider,
 } from '@opentelemetry/sdk-trace-node';
 import { Resource } from '@opentelemetry/resources';
-import { SEMRESATTRS_SERVICE_NAME } from '@opentelemetry/semantic-conventions';
+import { ATTR_SERVICE_NAME } from '@opentelemetry/semantic-conventions';
 
 class Tracer {
   private sdk: NodeSDK | null = null;
@@ -22,7 +22,7 @@ class Tracer {
 
   private provider = new NodeTracerProvider({
     resource: new Resource({
-      [SEMRESATTRS_SERVICE_NAME]: 'kafk-service',
+      [ATTR_SERVICE_NAME]: 'kafk-service',
     }),
   });
 
