@@ -119,6 +119,29 @@ kubectl expose deployment <name> --type=NodePort --port=<port> -n <namespace>
 
 ---
 
+## 🚀 ReplicaSet
+
+### List deployments
+```bash
+kubectl get replicaset
+```
+
+### Describe a specific replicaset
+```bash
+kubectl describe replicaset <replicaset-name>
+```
+
+### Create a replicaset
+```bash
+kubectl create replicaset <name> --image=<image>
+```
+
+```bash
+kubectl create -f <replicaset-yml path>
+```
+
+---
+
 ## 🌐 Ingress and Networking
 
 ### List all ingresses
